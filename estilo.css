@@ -1,0 +1,33 @@
+#gridContainer{
+    width: 920px;
+    height: 420px;
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    row-gap: 25px;
+    column-gap: 1px;
+    background-color: white;
+}
+
+.item1, .item8{
+    background-color: rgb(39, 39, 190);
+    width: 200px;
+    height: 200px;
+}
+
+.item2{
+     background-color: rgb(237, 236, 236);
+    width: 200px;
+    height: 200px;
+} 
+
+.item3, .item4{
+    background-color: rgb(200, 200, 200);
+    width: 200px;
+    height: 200px;
+}
+
+.item5, .item6, .item7{
+    background-color: rgb(200, 200, 200);
+    width: 200px;
+    height: 200px;
+}
